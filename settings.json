@@ -1,0 +1,281 @@
+{
+  "grunt.autoDetect": "on",
+  "workbench.statusBar.visible": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "editor.comments.insertSpace": true,
+  "editor.detectIndentation": true,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 28,
+  "editor.fontSize": 16,
+  "eslint.codeActionsOnSave.mode": "all",
+  "editor.fontFamily": "JetBrains Mono",
+  // "editor.fontFamily": "Source Code Pro",
+  // "editor.fontFamily": "fira code",
+  // "editor.fontFamily": "cascadia code",
+  "editor.fontLigatures": true,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.cursorBlinking": "expand",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSurroundingLinesStyle": "all",
+  "editor.minimap.maxColumn": 50,
+  "editor.cursorWidth": 3,
+  "window.newWindowDimensions": "maximized",
+  "workbench.startupEditor": "none",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.parameterHints.enabled": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+    // "source.organizeImports": true
+  },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "aspnetcorerazor": "html",
+    "twig": "html"
+  },
+  "editor.minimap.enabled": false,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  "files.exclude": {
+    ".next": true,
+    "**/bin": true,
+    "**/dist": true,
+    "**/DS_Store": true,
+    "**/node_modules": true,
+    "**/vendor": true,
+    "bin": true,
+    "release": true
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.title": "${folderName} 🚀 ${activeFolderShort}",
+  // "terminal.integrated.fontFamily": "fira code",
+  "terminal.integrated.fontFamily": "JetBrains Mono",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.wordWrap": "on",
+  "gitlens.hovers.currentLine.over": "line",
+  "codesnap.backgroundColor": "#6633CC",
+
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  "errorLens.fontStyle": "italic",
+  "errorLens.errorBackgroundLight": "rgba(0,0,0,0)",
+  "errorLens.warningColor": "rgba(0,0,0,0)",
+  "errorLens.infoColor": "rgba(0,0,0,0)",
+  "errorLens.hintColor": "rgba(0,0,0,0)",
+  "errorLens.errorTextColor": "rgb(255,0,0)",
+  "errorLens.warningTextColor": "rgb(255,255,0)",
+  "errorLens.hintTextColor": "rgb(0,255,0)",
+  "errorLens.messageBackgroundMode": "none",
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.advanced.messages": {
+    "suppressGitMissingWarning": true
+  },
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "editor.linkedEditing": true,
+  "git.confirmSync": false,
+
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "material-icon-theme.activeIconPack": "react_redux",
+
+  "editor.letterSpacing": 1.2,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.colorCustomizations": {
+    "tree.indentGuidesStroke": "#6633CC",
+    "tree.tableOddRowsBackground": "#6633CC",
+    "tree.tableColumnsBorder": "#6633CC"
+  },
+  "workbench.list.smoothScrolling": true,
+  "workbench.tree.indent": 17,
+  "path-intellisense.autoTriggerNextSuggestion": true,
+  "editor.smoothScrolling": true,
+  "explorer.compactFolders": false,
+  "material-icon-theme.folders.color": "#6633CC",
+  "prettier.jsxSingleQuote": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "[prisma]": {
+    "editor.formatOnSave": true
+  },
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
+  "material-icon-theme.files.associations": {
+    "**.php": "Php_elephant_pink",
+    "**.phtml": "Php_elephant_pink",
+    "fileName.ts": "angular",
+    "**.tsx": "Vite",
+    "**.jsx": "Vite",
+    "*.js": "Coffee",
+    "styles.js": "Renovate",
+    "global.js": "Renovate",
+    "global.ts": "Renovate",
+    "styles.ts": "Renovate",
+    "**.css": "Renovate",
+    "**.style.ts": "Renovate",
+    "**.styles.ts": "Renovate",
+    "**.style.js": "Renovate",
+    "**.styles.js": "Renovate",
+    "resetCSS.ts": "Renovate",
+    "resetCSS.js": "Renovate",
+    "resetCSS.css": "Renovate",
+    "routes.js": "Tilt",
+    "routes.ts": "Tilt",
+    "yarn.lock": "Dinophp",
+    "yarn-error.log": "Dinophp",
+    "next.config.js": "Nginx",
+    "**.service.ts": "Nest-service",
+    "**.controller.ts": "Nest-controller",
+    "**.module.ts": "Nest-module",
+    "main.ts": "Nest",
+    "**.html": "Http",
+    "**.interface.ts": "Yang",
+    "**.entity.ts": "Nest-pipe",
+    "**.use-case.ts": "Nest",
+    "prisma.ts": "Prisma",
+    "**.repositorie.ts": "Red",
+    "**.filter.ts": "Nest",
+    "**.interceptor.ts": "Nest",
+    "**.repository.ts": "Nest-resolver",
+    "**.util.ts": "Nest-resolver",
+    "**.dto.ts": "Nest-pipe",
+    "server.ts": "Http",
+    "**.error.ts": "Ember",
+    "**.provider.ts": "Nest"
+  },
+  "material-icon-theme.folders.associations": {
+    "adapters": "contract",
+    "grpc": "pipe",
+    "kube": "kubernetes",
+    "main": "lib",
+    "websockets": "pipe",
+    "implementations": "core",
+    "protos": "pipe",
+    "entities": "class",
+    "kafka": "pipe",
+    "use-cases": "functions",
+    "migrations": "tools",
+    "schemas": "class",
+    "useCases": "functions",
+    "eslint-config": "tools",
+    "typeorm": "database",
+    "_shared": "shared",
+    "mappers": "meta",
+    "fakes": "mock",
+    "modules": "components",
+    "subscribers": "messages",
+    "domain": "class",
+    "protocols": "contract",
+    "infra": "app",
+    "view-models": "views",
+    "presentation": "template",
+    "dtos": "typescript",
+    "http": "container",
+    "providers": "include",
+    "factories": "class",
+    "repositories": "mappings",
+    "organsms": "React-components",
+    "molecules": "React-components",
+    "atoms": "React-components",
+    "Modal": "Java"
+  },
+  "editor.inlineSuggest.enabled": true,
+
+  "sync.gist": "04ed5639750a812b039e2f1bfb04d064",
+  "editor.rulers": [80, 120],
+  "workbench.editor.labelFormat": "short",
+  "javascript.suggest.autoImports": true,
+  "prettier.singleQuote": true,
+  "eslint.packageManager": "yarn",
+  "hediet.vscode-drawio.theme": "dark",
+  "githubPullRequests.pullBranch": "never",
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "name": "One Dark italic",
+        "scope": [
+          "comment",
+          "entity.other.attribute-name",
+          "keyword",
+          "markup.underline.link",
+          "storage.modifier",
+          "storage.type",
+          "string.url",
+          "variable.language.super",
+          "variable.language.this"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "name": "One Dark italic reset",
+        "scope": [
+          "keyword.operator",
+          "keyword.other.type",
+          "storage.modifier.import",
+          "storage.modifier.package",
+          "storage.type.built-in",
+          "storage.type.function.arrow",
+          "storage.type.generic",
+          "storage.type.java",
+          "storage.type.primitive"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 2,
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.3)",
+    "rgba(127,255,127,0.3)",
+    "rgba(255,127,255,0.3)",
+    "rgba(79,236,236,0.3)"
+  ],
+  "liveServer.settings.donotShowInfoMsg": true,
+  "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+  "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+  "stylelint.validate": ["css", "scss", "styles.ts", "global.ts"],
+  "yaml.schemas": {
+    "file:///c%3A/Users/iv248/.vscode/extensions/atlassian.atlascode-2.10.12/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "redhat.telemetry.enabled": true,
+  "editor.stickyTabStops": true,
+  "files.associations": {
+    "*.html": "twig"
+  },
+  "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+  "[markdown]": {
+    "gremlins.characters": {
+      "000c": {
+        "zeroWidth": true,
+        "description": "FORM FEED (FF)",
+        "level": "error"
+      },
+      "00a0": {
+        "level": "none"
+      }
+    }
+  },
+  "workbench.colorTheme": "Omni Owl",
+  "workbench.productIconTheme": "fluent-icons"
+}
+
+//
+/*
+  "powermode.enabled": true,
+  "powermode.mode": "dark",
+  "powermode.shake.enabled": false,
+  "powermode.combo.counterEnabled": "hide",
+  "powermode.combo.timerEnabled": "hide"
+*/
